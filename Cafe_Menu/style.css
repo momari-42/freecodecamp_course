@@ -1,0 +1,66 @@
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    background-color: rgb(216, 185, 142);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-family: Impact;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+hr {
+    color: brown;
+    border-width: 2px;
+    border-color: brown;
+}
+
+body {
+    height: 100vh;
+    background-image: url("./assets/beans.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: sans-serif;
+}
+
+.name-price p {
+    display: inline-block;
+}
+
+.flavor, .dessert {
+    width: 75%;
+    text-align: left;
+}
+
+.price {
+    width: 25%;
+    text-align: right;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: brown;
+}
+
+a:active {
+}
