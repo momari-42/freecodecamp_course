@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>REGISTRATION FORM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">REGISTRATION FOR OUR CERTIFE</h1>
+    <p id="description">Please fill out the form below to create your account</p>
+    <form action="#" id="survey-form">
+        <fieldset>
+            <label for="name" id="name-label">Student Name: <input type="text" id="name" required></label>
+            <label for="email" id="email-label">Student Email: <input type="email" id="email" required></label>
+            <label for="age" id="age-label">Student Age: <input type="number" id="age" min="17" max="30" required></label>
+        </fieldset>
+        <fieldset>
+            <label>Which option best describes your current role?</label>
+            <select name="role" id="role">
+                <option value="">Select an option</option>
+                <option value="1">Student</option>
+                <option value="2">Full time job</option>
+                <option value="3">Full time learner</option>
+                <option value="4">Prefere not to say</option>
+                <option value="5">Other</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <label for="pool">Are you expooler</label>
+            <label for="yes"><input type="radio" class="inline" name="pool" id="yes"> Yes</label>
+            <label for="no"><input type="radio" class="inline" name="pool" id="no"> No</label>
+        </fieldset>
+        <fieldset>
+            <label>What would you like to learn in our certife</label>
+            <label for="frontend-dev"><input type="checkbox" class="inline" name="frontend-dev" value="frontend-dev"> Frontend Dev</label>
+            <label for="backend-dev"><input type="checkbox" class="inline" name="backend-dev" value="backend-dev"> Backend Dev</label>
+            <label for="fullstack-dev"><input type="checkbox" class="inline" name="fullstack-dev" value="fullstack-dev"> fullstack Dev</label>
+        </fieldset>
+        <fieldset>
+            <label for="des">
+                Describe yourself in one sentences:
+                <textarea name="des" id="des" rows="5" cols="30" placeholder="Ex: i am a student in 1337 for know"></textarea>
+            </label>
+        </fieldset>
+        <input type="submit" id="submit" >
+    </form>
+</body>
+</html>
